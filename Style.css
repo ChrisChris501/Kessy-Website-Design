@@ -1,0 +1,153 @@
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: solid grey;
+	line-height: 1.8em; 
+}
+
+ul {
+	list-style-type: none;
+}
+
+ a {
+	text-decoration: none;
+	color: grey; 
+}
+
+h1, h2 {
+	font-weight: 30;
+	line-height: 1.5em;
+	padding: 5px;
+	margin: 5px, 0px;
+}
+
+p {
+	margin: 10px, 0;	
+}
+
+img {
+	width: 100%;
+}
+
+         /* Navbar */
+.navbar {
+	background-color: #047aed;
+    color: white;
+    height: 80px;
+}
+
+.navbar ul {
+	display: flex;
+	padding: 10px 10px;
+	margin: 10px 10px;
+}
+
+.navbar a {
+	color: white;
+	padding: 4px 10px;
+	margin: 0;
+}
+
+.navbar a:hover {
+	border-bottom: 2px solid white; 
+}
+
+/* Showcase */
+
+.showcase {
+    background-color: #047aed;
+    height: 350px;
+    color: white;
+    position: relative;
+}
+
+.showcase h1 {
+	font-size: 30px;
+}
+
+.showcase p {
+	margin: 15px 0;
+}
+
+.showcase, .grid {
+    overflow: visible;
+}
+
+.showcase-form {
+	position: relative;
+	top: 60px;
+	height: 350px;
+	justify-content:  
+}
+
+.showcase-form, .form-control {
+	margin: 15px 5px;
+	text-align: center;
+}
+
+.form-control input {
+	border: 0px;
+	border-bottom: 1px solid #b4becb;
+	margin: 3px 2px;
+    padding: 5px 3px;
+    font-size: 16px;
+}
+
+.showcase-form input:focus {
+	outline: none;
+}
+
+/* Utilities: Classes used all around website */
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+    padding: 5px;    
+}
+
+.card {
+	background-color: white;
+	border-radius: 5px;
+	color: grey;
+	padding: 25px;
+	margin: 15px;
+	box-shadow: 5px, 5px 15px rgba(0, 0, 0, 0, 0.55)
+}
+
+.btn {
+	display: inline-block;
+	background-color: #047aed;
+	color: white ;
+	padding: 6px 15px;
+	margin: 4px 10px;
+	border: none;
+	border-radius: 5px;
+}
+
+.btn-outline {
+	background-color: transparent;
+	border: 1px solid white;
+}
+
+.btn:hover {
+	transform: scale(.95);
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1.5fr 0.7fr;
+	grid-gap: 15px;
+	justify-content: center;
+	align-items: center;
+	height: 100%
+}
+
